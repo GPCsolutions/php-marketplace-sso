@@ -10,4 +10,4 @@ cd ${SCRIPTPATH}/icons
 
 # Build ZIP
 cd ${SCRIPTPATH}
-zip --filesync --recurse-paths php-marketplace-sso.zip --exclude=*.sh --exclude=*.git* --exclude=*.svg .
+zip --filesync --recurse-paths php-marketplace-sso.zip --exclude=*.sh --exclude=*.git* --exclude=*.svg --exclude=assets/* .
