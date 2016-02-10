@@ -1,2 +1,4 @@
 # OAuth client ID
 /secrets
+# Composer vendor
+/vendor
