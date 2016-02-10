@@ -1,0 +1,12 @@
+{
+  "name": "gpcsolutions/php-marketplace-sso",
+  "description": "description_text",
+  "minimum-stability": "stable",
+  "license": "Apache-2.0",
+  "authors": [
+    {
+      "name": "Raphaël Doursenaud",
+      "email": "rdoursenaud@gpcsolutions.fr"
+    }
+  ]
+}
