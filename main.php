@@ -51,6 +51,7 @@ if (isset($_GET['code'])) {
         var_dump($login_attributes);
         ?>
         </body>
+        </html>
         <?php
     } else {
         // Token is forged, abort
