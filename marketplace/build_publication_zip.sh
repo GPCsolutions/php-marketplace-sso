@@ -1,6 +1,8 @@
 #!/bin/sh
 # Builds a Google Apps Marketplace publication ZIP
 
+APPNAME='php-marketplace-sso'
+
 SCRIPT=$(readlink -f "$0")
 SCRIPTPATH=$(dirname "$SCRIPT")
 
@@ -10,4 +12,4 @@ cd ${SCRIPTPATH}/icons
 
 # Build ZIP
 cd ${SCRIPTPATH}
-zip --filesync --recurse-paths php-marketplace-sso.zip --exclude=*.sh --exclude=*.git* --exclude=*.svg --exclude=assets/* .
+zip --filesync --recurse-paths ${APPNAME}.zip --exclude=*.sh --exclude=*.git* --exclude=*.svg --exclude=assets/* .
